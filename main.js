@@ -32,6 +32,5 @@ function copyTextToClipBoard() {
 }
 
 inputs.forEach((input) => {
-    console.log(input.innerText)
     input.addEventListener("input", changeBorderRadius)
 })

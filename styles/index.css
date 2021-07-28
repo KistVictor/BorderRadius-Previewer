@@ -28,8 +28,10 @@ input {
 textarea {
   width: 200px;
   height: 20px;
-  border-radius: 5px;
+  background-color: #3E0E0D;
   border: 2px solid black;
+  border-radius: 5px;
+  color: white;
   resize: none;
   overflow: auto;
 }
@@ -40,4 +42,5 @@ button {
   border: 2px solid black;
   border-radius: 5px;
   color: white;
+  cursor: pointer;
 }
